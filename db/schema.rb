@@ -20,13 +20,13 @@ ActiveRecord::Schema.define(version: 20150109172803) do
   end
 
   create_table "categorizations", force: true do |t|
-    t.integer  "product_id_id"
-    t.integer  "category_id_id"
+    t.integer  "product_id"
+    t.integer  "category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "categorizations", ["category_id_id"], name: "index_categorizations_on_category_id_id"
+  add_index "categorizations", ["category_id"], name: "index_categorizations_on_category_id"
 
   create_table "products", force: true do |t|
     t.string   "name"
