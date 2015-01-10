@@ -1,0 +1,67 @@
+.simple_form {
+  $indent: 121px;
+  label {
+    margin: 10px 10px;
+  }
+  div.input {
+    margin-bottom: 10px;
+  }
+  input.radio_buttons, input.check_boxes {
+    margin-left:  20px;
+    margin-top:  4px
+  }
+  .btn {
+    margin-left: $indent;
+  }
+  .alert-error {
+    color: #D00;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .hint, .error {
+    clear: left;
+    margin-left: $indent;
+    font-size: 12px;
+    color: #D00;
+    display: block;
+  }
+  .hint {
+    color: #555;
+    font-style: italic;
+  }
+}
+
+.radio-buttons {
+  margin: .5em 0;
+  span input {
+    float: left;
+    margin-right: .25em;
+    margin-top: -.25em;
+  }
+  #this grabs the MAIN label only for my radio buttons 
+  #since the data type for the table column is string--yours may be different
+  label.string { 
+    margin-bottom: .5em !important;
+  }
+
+  clear: both;
+}
+
+.form-block {
+  clear: both;
+  margin-top: .5em;
+}
+
+ .radio-buttons span {
+  clear: both;
+  display:block;
+ }
+span.hint {
+  position: relative;
+  left: -60px
+}
+.error_notification {
+  color: red;
+  font-size: 1.5rem;
+  margin: 1.5rem 0.0rem
+}
