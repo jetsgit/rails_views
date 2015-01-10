@@ -1,0 +1,9 @@
+jet:
+  products:
+    index:
+      title: "Ya dis is vas mundo belib"
+      description: "Cronda vieben yo-ho-da"
+  activerecord:
+    attributes:
+      product:
+        price: "Lutafisk"

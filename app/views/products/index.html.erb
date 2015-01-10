@@ -1,10 +1,10 @@
-<h1>Listing products</h1>
-
+<h1><%= t ".title" %></h1>
+<em><%= t ".description" %></em>
 <table>
   <thead>
     <tr>
-      <th>Name,</th>
-      <th>Price</th>
+      <th>Name</th>
+      <th><%= Product.human_attribute_name(:price) %></th>
       <th>Publisher</th>
       <th>Rating</th>
       <th>Discontinued</th>
