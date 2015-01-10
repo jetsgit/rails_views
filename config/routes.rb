@@ -1,4 +1,6 @@
 RailsViews::Application.routes.draw do
+  resources :users
+
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
     resources :products
     root to: 'products#index'

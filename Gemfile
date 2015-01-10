@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'simple_form'
 
+gem 'redcarpet'
 group :development do
   gem 'pry-rails'
   gem 'pry-byebug'
