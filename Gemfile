@@ -8,9 +8,11 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
-gem 'simple_form'
 
+gem 'simple_form'
 gem 'redcarpet'
+gem 'draper'
+
 group :development do
   gem 'pry-rails'
   gem 'pry-byebug'
