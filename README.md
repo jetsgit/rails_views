@@ -1,5 +1,5 @@
-Rails Views: Simple Form, I18n, Presenter Pattern, and Template Inheritance
-===========================================================================
+Rails Views: Simple Form, I18n, Presenter Pattern
+=================================================
 
 ### Streamlining your Rails Views.
 
