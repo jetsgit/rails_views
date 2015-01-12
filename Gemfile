@@ -16,6 +16,7 @@ gem 'draper'
 group :development do
   gem 'pry-rails'
   gem 'pry-byebug'
+  gem 'hirb'
 end
 
 group :doc do

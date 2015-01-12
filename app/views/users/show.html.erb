@@ -9,20 +9,8 @@
     <dt>Website:</dt>
     <dd><%= @user.website %></dd>
     <dt>Twitter:</dt>
-    <dd>
-    <% if @user.twitter_name.present? %>
-      <%= link_to @user.twitter_name, "http://twitter.com/#{@user.twitter_name}" %>
-    <% else %>
-      <span class="none">None given</span>
-    <% end %>
-    </dd>
+    <dd><%= @user.twitter%></dd>
     <dt>Bio:</dt>
-    <dd>
-    <% if @user.bio.present? %>
-      <%= markdown @user.bio %>
-    <% else %>
-      <span class="none">None given</span>
-    <% end %>
-    </dd>
+    <dd><%= @user.bio%></dd>
   </dl>
 </div>

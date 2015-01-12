@@ -6,7 +6,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    require 'pry'; binding.pry
     @user = @user.decorate
   end
 
