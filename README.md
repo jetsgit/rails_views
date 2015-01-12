@@ -1,32 +1,28 @@
----
-tile: Rails Views: Simple Form, I18n, Presenter Pattern, and Template Inheritance
-description: Streamlining your Rails Views.
-author: Jerry Thompson
-tags: rails views, presenter pattern, I18n, template inheritance
----
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails Views: Simple Form, I18n, Presenter Pattern, and Template Inheritance
+===========================================================================
 
-Things you may want to cover:
+### Streamlining your Rails Views.
 
-* Ruby version
+#### Requirements
 
-* System dependencies
+* Ruby version:  2.1.0
+* Rails: 4.0.2
+* Gems:  Draper, RedCarpet, SimpleForm, sqlite3
 
-* Configuration
+### Simple Form
 
-* Database creation
+Simple form allows you to streamline your views by making it incredibly
+easy to implement complex forms.
 
-* Database initialization
+#### Install
 
-* How to run the test suite
+Add ``` gem 'simple_form' ``` to your Gemfile
+Run ``` rails g simple_form:install ```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Before using Simple Form
 
-* Deployment instructions
+![Before using Simple Form](app/assets/images/rails_views_before_changing_fields.png)
 
-* ...
+### After using Simple Form
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+![After using Simple Form](app/assets/images/rails_views_after_simple_form.png)
