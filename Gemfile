@@ -16,6 +16,8 @@ gem 'draper'
 group :development do
   gem 'pry-rails'
   gem 'pry-byebug'
+  gem 'pry-doc'
+  gem 'rails-env-switcher'
   gem 'hirb'
 end
 
