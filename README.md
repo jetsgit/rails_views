@@ -26,3 +26,23 @@ Run ``` rails g simple_form:install ```
 ### After using Simple Form
 
 ![After using Simple Form](app/assets/images/rails_views_after_simple_form.png)
+
+### I18n Implementation
+
+English Lanuage
+
+![English I18n](app/assets/images/rails_views_I18n_browser_en.png)
+
+Jetski Language
+
+![Jetski Language](app/assets/images/rails_views_I18n_jetski.png)
+
+### Refactor and Implement Presenter Pattern with Draper
+
+user.html.erb before refactor and implementing presenter pattern
+
+![Before Draper][app/assets/images/rails_views_before_user-show.png]
+
+user.html.erb after refactor and implementing presenter pattern
+
+![After Draper](app/assets/images/rails_views_after_user-show.png)
