@@ -41,7 +41,7 @@ Jetski Language
 
 user.html.erb before refactor and implementing presenter pattern
 
-![Before Draper][app/assets/images/rails_views_before_user-show.png]
+![Before Draper](app/assets/images/rails_views_before_user-show.png)
 
 user.html.erb after refactor and implementing presenter pattern
 
