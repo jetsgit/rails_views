@@ -13,6 +13,9 @@
       <%= link_to_unless_current "English", locale: "en" %> |
       <%= link_to_unless_current "Jetski", locale: "jet" %>
     </div>
+    <div id="side">
+      <%= render "side" %>
+    </div>
     <% flash.each do |name, msg| %>
       <%= content_tag :div, msg, id: "flash_#{name}" %>
     <% end %>

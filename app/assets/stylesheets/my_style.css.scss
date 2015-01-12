@@ -1,4 +1,35 @@
 #nav {
   position: relative;
-  float: right
+  float: right;
+  margin-right: 3.0rem;
+  border: solid 1px #777;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  padding: 10px 15px;
+  padding-right: 50px;
+
+}
+
+#side {
+  position: relative;
+  float: right;
+  clear: both;
+  margin-right: 3.0rem;
+  margin-top: 2.0rem;
+  border: solid 1px #777;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  padding: 10px 15px;
+  padding-right: 50px;
+
+}
+
+tbody.user_listing tr td {
+padding: 0 10px;
+}
+
+table.user thead tr th {
+  padding: 0 10px
 }
